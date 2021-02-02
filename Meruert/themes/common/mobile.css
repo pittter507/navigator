@@ -1,0 +1,13 @@
+#header, #header a, #top, #content, #sidebar, #central, #menu, #management, #footer { position: static; width: auto; height: auto; line-height: 1.8; margin: 0; }
+#main { padding: 0; margin: 0; }
+#header a#caption-link { margin: 0; font-size: 20pt; }
+#canvas { width: 95%; margin: 0 auto; overflow: hidden; padding-top: 10px; }
+#central { width: 95%; overflow: visible; }
+#content, #sidebar { float: none; clear: both; width: 100%; border: 0; margin-bottom: 50px; padding: 10px; }
+#canvas input, #canvas select, #canvas textarea, #canvas img, #content .comments { width: auto; max-width: 95% !important; }
+#canvas textarea { min-width: 85%; }
+#menu, #management { line-height: 1.8; padding: 10px; }
+#header { text-align: center; }
+.manage form input.submit { top: 0; }
+#management span, #management span a, #menu span, #menu span a { display: inline-block; }
+.post .date { width: 75%; text-align: right; }
